@@ -187,10 +187,10 @@ markerclustererplus@2.1.4:
   resolved "https://registry.yarnpkg.com/markerclustererplus/-/markerclustererplus-2.1.4.tgz#901225180dd5d5fc0827753a18eee35afcf9c4f7"
   integrity sha1-kBIlGA3V1fwIJ3U6GO7jWvz5xPc=
 
-masonry-layout@4.1.1:
-  version "4.1.1"
-  resolved "https://registry.yarnpkg.com/masonry-layout/-/masonry-layout-4.1.1.tgz#e8c8c6f5a9e621a75203ac4b7000855a36f6753e"
-  integrity sha1-6MjG9anmIadSA6xLcACFWjb2dT4=
+masonry-layout@4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/masonry-layout/-/masonry-layout-4.2.2.tgz#d57b44af13e601bfcdc423f1dd8348b5524de348"
+  integrity sha512-iGtAlrpHNyxaR19CvKC3npnEcAwszXoyJiI8ARV2ePi7fmYhIud25MHK8Zx4P0LCC4d3TNO9+rFa1KoK1OEOaA==
   dependencies:
     get-size "^2.0.2"
     outlayer "^2.1.0"
