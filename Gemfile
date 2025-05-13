@@ -31,7 +31,7 @@ gem 'pundit'
 gem 'rack-canonical-host'
 gem 'rack-cors'
 gem 'rack-mini-profiler', require: ['prepend_net_http_patch']
-gem 'rails', '~> 5.2.5'
+gem 'rails', '~> 7.0.0'
 gem 'rails-backbone'
 gem 'sanitize'
 gem 'sassc-rails'
