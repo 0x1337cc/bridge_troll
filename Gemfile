@@ -29,7 +29,7 @@ gem 'omniauth-twitter'
 gem 'puma'
 gem 'pundit'
 gem 'rack-canonical-host'
-gem 'rack-cors'
+gem 'rack-cors', '>= 3.0.0'
 gem 'rack-mini-profiler', require: ['prepend_net_http_patch']
 gem 'rails', '~> 5.2.5'
 gem 'rails-backbone'
