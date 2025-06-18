@@ -93,7 +93,7 @@ group :test do
   gem 'capybara-screenshot'
   gem 'codecov', require: false
   gem 'database_cleaner'
-  gem 'factory_bot_rails'
+  gem 'factory_bot_rails', '>= 6.5.0'
   gem 'faker'
   gem 'shoulda-matchers'
   gem 'simplecov', require: false
