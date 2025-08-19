@@ -31,7 +31,7 @@ gem 'pundit'
 gem 'rack-canonical-host'
 gem 'rack-cors'
 gem 'rack-mini-profiler', require: ['prepend_net_http_patch']
-gem 'rails', '~> 5.2.5'
+gem 'rails', '~> 7.1.5', '>= 7.1.5.2'
 gem 'rails-backbone'
 gem 'sanitize'
 gem 'sassc-rails'
@@ -92,7 +92,7 @@ group :test do
   gem 'capybara'
   gem 'capybara-screenshot'
   gem 'codecov', require: false
-  gem 'database_cleaner'
+  gem 'database_cleaner', '>= 2.0.2'
   gem 'factory_bot_rails'
   gem 'faker'
   gem 'shoulda-matchers'
