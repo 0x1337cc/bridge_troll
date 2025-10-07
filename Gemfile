@@ -72,12 +72,12 @@ group :test, :development do
   gem 'rake', require: false
   gem 'rspec-collection_matchers'
   gem 'rspec-rails'
-  gem 'rubocop', require: false
-  gem 'rubocop-performance', require: false
-  gem 'rubocop-rails', require: false
-  gem 'rubocop-rake', require: false
-  gem 'rubocop-rspec', require: false
-  gem 'rubocop-thread_safety', require: false
+  gem 'rubocop', '>= 1.66.0', require: false
+  gem 'rubocop-performance', '>= 1.11.2', require: false
+  gem 'rubocop-rails', '>= 2.10.0', require: false
+  gem 'rubocop-rake', '>= 0.6.0', require: false
+  gem 'rubocop-rspec', '>= 2.4.0', require: false
+  gem 'rubocop-thread_safety', '>= 0.4.3', require: false
   gem 'sqlite3'
 end
 
