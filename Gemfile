@@ -20,9 +20,9 @@ gem 'jquery-rails'
 gem 'jquery-ui-rails'
 gem 'nearest_time_zone'
 gem 'nested_form'
-gem 'omniauth-facebook'
-gem 'omniauth-github'
-gem 'omniauth-google-oauth2'
+gem 'omniauth-facebook', '>= 9.0.0'
+gem 'omniauth-github', '>= 2.0.0'
+gem 'omniauth-google-oauth2', '>= 0.8.2'
 gem 'omniauth-meetup'
 gem 'omniauth-rails_csrf_protection'
 gem 'omniauth-twitter'
@@ -46,7 +46,7 @@ group :production do
   gem 'newrelic_rpm'
   gem 'pg'
   gem 'rack-timeout'
-  gem 'sentry-raven'
+  gem 'sentry-raven', '>= 3.1.2'
 end
 
 group :development do
